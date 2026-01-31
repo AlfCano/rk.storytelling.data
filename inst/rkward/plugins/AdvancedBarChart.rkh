@@ -1,0 +1,108 @@
+<!DOCTYPE rkhelp >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<summary>
+	</summary>
+	<usage>
+	</usage>
+	<!--
+		<section id="sct_EDITORDE" title="EDIT OR DELETE ME">
+			EDIT OR DELETE ME
+		</section>
+	-->
+	<settings>
+		<caption id="tab_Data" />
+		<setting id="bar_data">
+		</setting>
+		<setting id="bar_cat">
+		</setting>
+		<setting id="bar_val">
+		</setting>
+		<setting id="bar_fill">
+		</setting>
+		<setting id="bar_facet">
+		</setting>
+		<caption id="frm_FreqOrdr" />
+		<setting id="bar_freq_type">
+		</setting>
+		<setting id="bar_order">
+		</setting>
+		<setting id="bar_flip">
+		</setting>
+		<caption id="tab_Highlght" />
+		<caption id="frm_Rules" />
+		<setting id="bar_rule">
+		</setting>
+		<setting id="bar_man_val">
+		</setting>
+		<caption id="tab_ValuLbls" />
+		<setting id="bar_show_labels">
+		</setting>
+		<setting id="bar_lbl_size">
+		</setting>
+		<setting id="bar_lbl_col">
+		</setting>
+		<caption id="frm_PstnAdjs" />
+		<setting id="bar_lbl_vjust">
+		</setting>
+		<setting id="bar_lbl_hjust">
+		</setting>
+		<caption id="tab_Theme" />
+		<caption id="frm_TextLbls" />
+		<setting id="bar_title">
+		</setting>
+		<setting id="bar_subtitle">
+		</setting>
+		<setting id="bar_xlab">
+		</setting>
+		<setting id="bar_ylab">
+		</setting>
+		<setting id="bar_caption">
+		</setting>
+		<caption id="frm_AxsTtlRt" />
+		<setting id="bar_x_title_angle">
+		</setting>
+		<setting id="bar_y_title_angle">
+		</setting>
+		<caption id="frm_AxsVlRtt" />
+		<setting id="bar_x_angle">
+		</setting>
+		<setting id="bar_y_angle">
+		</setting>
+		<caption id="frm_LgndClrs" />
+		<setting id="bar_col_focus">
+		</setting>
+		<setting id="bar_legend_pos">
+		</setting>
+		<setting id="bar_txt_size">
+		</setting>
+		<caption id="tab_OtptExpr" />
+		<caption id="frm_GrphcsDv" />
+		<setting id="bar_dev_type">
+		</setting>
+		<setting id="bar_dev_w">
+		</setting>
+		<setting id="bar_dev_h">
+		</setting>
+		<setting id="bar_dev_res">
+		</setting>
+		<setting id="bar_dev_bg">
+		</setting>
+		<setting id="bar_save">
+		</setting>
+	</settings>
+	<!--
+		<related>
+			<ul>
+				<li>
+					<link href="rkward://rhelp/..." />
+				</li>
+			</ul>
+		</related>
+	-->
+	<technical>
+	</technical>
+</document>

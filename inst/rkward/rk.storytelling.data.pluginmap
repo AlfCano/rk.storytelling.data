@@ -1,0 +1,177 @@
+<!DOCTYPE
+	rkpluginmap
+>
+<document
+	base_prefix=""
+	namespace="FocusLineChart"
+	id="FocusLineChart_rkward"
+	po_id="FocusLineChart_rkward"
+	priority="medium"
+>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<about
+		name="rk.storytelling.data"
+		shortinfo="A collection of ggplot2 wrappers designed for 'Storytelling with Data' (SWD) principles."
+		longinfo="A collection of ggplot2 wrappers designed for 'Storytelling with Data' (SWD) principles."
+		version="0.1.0"
+		releasedate="2026-01-31"
+		url="https://github.com/AlfCano/rk.storytelling.data"
+		license="GPL (&gt;= 3)"
+	>
+		<author
+			given="Alfonso"
+			family="Cano"
+			email="alfonso.cano@correo.buap.mx"
+			role="aut, cre"
+		/>
+	</about>
+	<require
+		map="rkward::menu"
+	/>
+	<require
+		map="rkward::embedded"
+	/>
+	<components>
+		<component
+			id="cmp_FocusLineChartFcsScttrPlt"
+			label="Focus Scatter Plot"
+			type="standard"
+			file="plugins/FocusScatterPlot.xml"
+		>
+		</component>
+		<component
+			id="cmp_FocusLineChrtAdvncdBrChrt"
+			label="Advanced Bar Chart"
+			type="standard"
+			file="plugins/AdvancedBarChart.xml"
+		>
+		</component>
+		<component
+			id="cmp_FocusLineChartSlopegraph"
+			label="Slopegraph"
+			type="standard"
+			file="plugins/Slopegraph.xml"
+		>
+		</component>
+		<component
+			id="cmp_FocusLineChartDumbbellPlt"
+			label="Dumbbell Plot"
+			type="standard"
+			file="plugins/DumbbellPlot.xml"
+		>
+		</component>
+		<component
+			id="cmp_FocusLineChartBgNmbrSmmry"
+			label="Big Number Summary"
+			type="standard"
+			file="plugins/BigNumberSummary.xml"
+		>
+		</component>
+		<component
+			id="cmp_FocusLineChartFocusLnChrt"
+			label="Focus Line Chart"
+			type="standard"
+			file="plugins/FocusLineChart.xml"
+		>
+		</component>
+	</components>
+	<hierarchy>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="StorytellingwithData"
+				label="Storytelling with Data"
+			>
+				<entry
+					component="cmp_FocusLineChartFcsScttrPlt"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="StorytellingwithData"
+				label="Storytelling with Data"
+			>
+				<entry
+					component="cmp_FocusLineChrtAdvncdBrChrt"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="StorytellingwithData"
+				label="Storytelling with Data"
+			>
+				<entry
+					component="cmp_FocusLineChartSlopegraph"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="StorytellingwithData"
+				label="Storytelling with Data"
+			>
+				<entry
+					component="cmp_FocusLineChartDumbbellPlt"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="StorytellingwithData"
+				label="Storytelling with Data"
+			>
+				<entry
+					component="cmp_FocusLineChartBgNmbrSmmry"
+				/>
+			</menu>
+		</menu>
+		<menu
+			id="plots"
+			label="Plots"
+		>
+			<menu
+				id="StorytellingwithData"
+				label="Storytelling with Data"
+			>
+				<entry
+					component="cmp_FocusLineChartFocusLnChrt"
+				/>
+			</menu>
+		</menu>
+	</hierarchy>
+	<!--
+		<context
+			id="x11"
+		>
+		</context>
+	-->
+	<!--
+		<context
+			id="import"
+		>
+		</context>
+	-->
+</document>

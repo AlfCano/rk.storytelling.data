@@ -1,0 +1,86 @@
+<!DOCTYPE rkhelp >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<summary>
+	</summary>
+	<usage>
+	</usage>
+	<!--
+		<section id="sct_EDITORDE" title="EDIT OR DELETE ME">
+			EDIT OR DELETE ME
+		</section>
+	-->
+	<settings>
+		<caption id="tab_Data" />
+		<setting id="line_data">
+		</setting>
+		<setting id="line_x">
+		</setting>
+		<setting id="line_y">
+		</setting>
+		<setting id="line_grp">
+		</setting>
+		<caption id="frm_iFGOHTN020" />
+		<setting id="line_focus_groups">
+		</setting>
+		<setting id="line_top_n">
+		</setting>
+		<caption id="tab_Theme" />
+		<caption id="frm_TextLbls" />
+		<setting id="line_title">
+		</setting>
+		<setting id="line_subtitle">
+		</setting>
+		<setting id="line_xlab">
+		</setting>
+		<setting id="line_ylab">
+		</setting>
+		<setting id="line_caption">
+		</setting>
+		<caption id="frm_AxsTtlRt" />
+		<setting id="line_x_title_angle">
+		</setting>
+		<setting id="line_y_title_angle">
+		</setting>
+		<caption id="frm_AxsVlRtt" />
+		<setting id="line_x_angle">
+		</setting>
+		<setting id="line_y_angle">
+		</setting>
+		<caption id="frm_LgndClrs" />
+		<setting id="line_col_focus">
+		</setting>
+		<setting id="line_legend_pos">
+		</setting>
+		<setting id="line_txt_size">
+		</setting>
+		<caption id="tab_OtptExpr" />
+		<caption id="frm_GrphcsDv" />
+		<setting id="line_dev_type">
+		</setting>
+		<setting id="line_dev_w">
+		</setting>
+		<setting id="line_dev_h">
+		</setting>
+		<setting id="line_dev_res">
+		</setting>
+		<setting id="line_dev_bg">
+		</setting>
+		<setting id="line_save">
+		</setting>
+	</settings>
+	<!--
+		<related>
+			<ul>
+				<li>
+					<link href="rkward://rhelp/..." />
+				</li>
+			</ul>
+		</related>
+	-->
+	<technical>
+	</technical>
+</document>

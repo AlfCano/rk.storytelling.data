@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Language: pt_BR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Storytelling with Data"
+msgstr "Storytelling com Dados"
+
+msgid "Focus Line Chart"
+msgstr "Gráfico de Linhas de Foco"
+
+msgid "SWD: Focus Line Chart"
+msgstr "SWD: Gráfico de Linhas de Foco"
+
+msgid "SWD: Focus Scatter Plot"
+msgstr "SWD: Gráfico de Dispersão de Foco"
+
+msgid "SWD: Advanced Bar Chart"
+msgstr "SWD: Gráfico de Barras Avançado"
+
+msgid "SWD: Slopegraph"
+msgstr "SWD: Gráfico de Inclinação (Slopegraph)"
+
+msgid "SWD: Dumbbell Plot"
+msgstr "SWD: Gráfico de Halteres (Dumbbell)"
+
+msgid "SWD: Big Number Summary"
+msgstr "SWD: Resumo de Números Grandes"
+
+msgid "Text Labels"
+msgstr "Rótulos de Texto"
+
+msgid "Main Title"
+msgstr "Título Principal"
+
+msgid "Subtitle"
+msgstr "Subtítulo"
+
+msgid "X-Axis Label"
+msgstr "Rótulo do Eixo X"
+
+msgid "Y-Axis Label"
+msgstr "Rótulo do Eixo Y"
+
+msgid "Caption"
+msgstr "Legenda (Rodapé)"
+
+msgid "Rotation Adjustment"
+msgstr "Ajuste de Rotação"
+
+msgid "X Title Angle"
+msgstr "Ângulo do Título X"
+
+msgid "Y Title Angle"
+msgstr "Ângulo do Título Y"
+
+msgid "X Value Angle"
+msgstr "Ângulo dos Valores X"
+
+msgid "Y Value Angle"
+msgstr "Ângulo dos Valores Y"
+
+msgid "Legend & Colors"
+msgstr "Legenda e Cores"
+
+msgid "Focus Color"
+msgstr "Cor de Foco"
+
+msgid "Context Color"
+msgstr "Cor de Contexto"
+
+msgid "Legend Position"
+msgstr "Posição da Legenda"
+
+msgid "Base Text Size"
+msgstr "Tamanho do Texto Base"
+
+msgid "Data Frame"
+msgstr "Quadro de Dados (Data Frame)"
+
+msgid "X Axis"
+msgstr "Eixo X"
+
+msgid "Y Axis"
+msgstr "Eixo Y"
+
+msgid "Grouping Variable"
+msgstr "Variable de Agrupamento"
+
+msgid "Focus Group(s)"
+msgstr "Grupo(s) de Foco"
+
+msgid "Or Highlight Top N"
+msgstr "Ou destacar os N melhores"
+
+msgid "Frequency Type"
+msgstr "Tipo de Frequência"
+
+msgid "Absolute (Sum)"
+msgstr "Absoluto (Soma)"
+
+msgid "Relative (100% Stacked)"
+msgstr "Relativo (Empilhado 100%)"
+
+msgid "X-Axis Ordering"
+msgstr "Ordenação do Eixo X"
+
+msgid "Highlight Rule"
+msgstr "Regra de Destaque"
+
+msgid "Name to highlight"
+msgstr "Nome para destacar"
+
+msgid "Flip Coordinates"
+msgstr "Inverter Coordenadas"
+
+msgid "Show Value Labels"
+msgstr "Mostrar Rótulos de Valor"
+
+msgid "Graphics Device"
+msgstr "Dispositivo Gráfico"
+
+msgid "Resolution (ppi)"
+msgstr "Resolução (ppi)"
+
+msgid "Background"
+msgstr "Fundo"

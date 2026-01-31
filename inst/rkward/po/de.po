@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Language: de\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Storytelling with Data"
+msgstr "Storytelling mit Daten"
+
+msgid "Focus Line Chart"
+msgstr "Fokus-Liniendiagramm"
+
+msgid "SWD: Focus Line Chart"
+msgstr "SWD: Fokus-Liniendiagramm"
+
+msgid "SWD: Focus Scatter Plot"
+msgstr "SWD: Fokus-Streudiagramm"
+
+msgid "SWD: Advanced Bar Chart"
+msgstr "SWD: Erweitertes Balkendiagramm"
+
+msgid "SWD: Slopegraph"
+msgstr "SWD: Slopegraph (Steigungsdiagramm)"
+
+msgid "SWD: Dumbbell Plot"
+msgstr "SWD: Hanteldiagramm (Dumbbell)"
+
+msgid "SWD: Big Number Summary"
+msgstr "SWD: Großzahlen-Zusammenfassung"
+
+msgid "Text Labels"
+msgstr "Textbeschriftungen"
+
+msgid "Main Title"
+msgstr "Haupttitel"
+
+msgid "Subtitle"
+msgstr "Untertitel"
+
+msgid "X-Axis Label"
+msgstr "X-Achsenbeschriftung"
+
+msgid "Y-Axis Label"
+msgstr "Y-Achsenbeschriftung"
+
+msgid "Caption"
+msgstr "Anmerkung (Caption)"
+
+msgid "Rotation Adjustment"
+msgstr "Rotationsanpassung"
+
+msgid "X Title Angle"
+msgstr "Winkel X-Titel"
+
+msgid "Y Title Angle"
+msgstr "Winkel Y-Titel"
+
+msgid "X Value Angle"
+msgstr "Winkel X-Werte"
+
+msgid "Y Value Angle"
+msgstr "Winkel Y-Werte"
+
+msgid "Legend & Colors"
+msgstr "Legende & Farben"
+
+msgid "Focus Color"
+msgstr "Fokusfarbe"
+
+msgid "Context Color"
+msgstr "Kontextfarbe"
+
+msgid "Legend Position"
+msgstr "Legendenposition"
+
+msgid "Base Text Size"
+msgstr "Basis-Textgröße"
+
+msgid "Data Frame"
+msgstr "Datenframe"
+
+msgid "X Axis"
+msgstr "X-Achse"
+
+msgid "Y Axis"
+msgstr "Y-Achse"
+
+msgid "Grouping Variable"
+msgstr "Gruppierungsvariable"
+
+msgid "Focus Group(s)"
+msgstr "Fokusgruppe(n)"
+
+msgid "Or Highlight Top N"
+msgstr "Oder Top N hervorheben"
+
+msgid "Frequency Type"
+msgstr "Häufigkeitstyp"
+
+msgid "Absolute (Sum)"
+msgstr "Absolut (Summe)"
+
+msgid "Relative (100% Stacked)"
+msgstr "Relativ (100% Gestapelt)"
+
+msgid "X-Axis Ordering"
+msgstr "X-Achsen-Sortierung"
+
+msgid "Highlight Rule"
+msgstr "Hervorhebungsregel"
+
+msgid "Name to highlight"
+msgstr "Hervorzuhebender Name"
+
+msgid "Flip Coordinates"
+msgstr "Koordinaten spiegeln"
+
+msgid "Show Value Labels"
+msgstr "Wertbeschriftungen anzeigen"
+
+msgid "Graphics Device"
+msgstr "Grafikgerät"
+
+msgid "Resolution (ppi)"
+msgstr "Auflösung (ppi)"
+
+msgid "Background"
+msgstr "Hintergrund"

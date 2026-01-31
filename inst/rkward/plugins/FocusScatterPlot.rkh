@@ -1,0 +1,93 @@
+<!DOCTYPE rkhelp >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<summary>
+	</summary>
+	<usage>
+	</usage>
+	<!--
+		<section id="sct_EDITORDE" title="EDIT OR DELETE ME">
+			EDIT OR DELETE ME
+		</section>
+	-->
+	<settings>
+		<caption id="tab_Data" />
+		<setting id="scat_data">
+		</setting>
+		<setting id="scat_x">
+		</setting>
+		<setting id="scat_y">
+		</setting>
+		<setting id="scat_lbl">
+		</setting>
+		<caption id="frm_Averages" />
+		<setting id="scat_avg_x">
+		</setting>
+		<setting id="scat_avg_y">
+		</setting>
+		<setting id="scat_avg_cross">
+		</setting>
+		<setting id="scat_focus_list">
+		</setting>
+		<caption id="tab_Theme" />
+		<caption id="frm_TextLbls" />
+		<setting id="scat_title">
+		</setting>
+		<setting id="scat_subtitle">
+		</setting>
+		<setting id="scat_xlab">
+		</setting>
+		<setting id="scat_ylab">
+		</setting>
+		<setting id="scat_caption">
+		</setting>
+		<caption id="frm_AxsTtlRt" />
+		<setting id="scat_x_title_angle">
+		</setting>
+		<setting id="scat_y_title_angle">
+		</setting>
+		<caption id="frm_AxsVlRtt" />
+		<setting id="scat_x_angle">
+		</setting>
+		<setting id="scat_y_angle">
+		</setting>
+		<caption id="frm_LgndClrs" />
+		<setting id="scat_col_focus">
+		</setting>
+		<setting id="scat_legend_pos">
+		</setting>
+		<setting id="scat_txt_size">
+		</setting>
+		<caption id="frm_Layout" />
+		<setting id="scat_capped">
+		</setting>
+		<caption id="tab_OtptExpr" />
+		<caption id="frm_GrphcsDv" />
+		<setting id="scat_dev_type">
+		</setting>
+		<setting id="scat_dev_w">
+		</setting>
+		<setting id="scat_dev_h">
+		</setting>
+		<setting id="scat_dev_res">
+		</setting>
+		<setting id="scat_dev_bg">
+		</setting>
+		<setting id="scat_save">
+		</setting>
+	</settings>
+	<!--
+		<related>
+			<ul>
+				<li>
+					<link href="rkward://rhelp/..." />
+				</li>
+			</ul>
+		</related>
+	-->
+	<technical>
+	</technical>
+</document>

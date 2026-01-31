@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Storytelling with Data"
+msgstr "Storytelling avec des Données"
+
+msgid "Focus Line Chart"
+msgstr "Graphique Linéaire de Mise au Point"
+
+msgid "SWD: Focus Line Chart"
+msgstr "SWD : Graphique Linéaire de Mise au Point"
+
+msgid "SWD: Focus Scatter Plot"
+msgstr "SWD : Graphique de Dispersion de Mise au Point"
+
+msgid "SWD: Advanced Bar Chart"
+msgstr "SWD : Graphique à Barres Avancé"
+
+msgid "SWD: Slopegraph"
+msgstr "SWD : Graphique de Pente (Slopegraph)"
+
+msgid "SWD: Dumbbell Plot"
+msgstr "SWD : Graphique d'Haltères (Dumbbell)"
+
+msgid "SWD: Big Number Summary"
+msgstr "SWD : Résumé à Grands Chiffres"
+
+msgid "Text Labels"
+msgstr "Étiquettes de Texte"
+
+msgid "Main Title"
+msgstr "Titre Principal"
+
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+msgid "X-Axis Label"
+msgstr "Étiquette de l'Axe X"
+
+msgid "Y-Axis Label"
+msgstr "Étiquette de l'Axe Y"
+
+msgid "Caption"
+msgstr "Légende (Bas de page)"
+
+msgid "Rotation Adjustment"
+msgstr "Ajustement de la Rotation"
+
+msgid "X Title Angle"
+msgstr "Angle du Titre X"
+
+msgid "Y Title Angle"
+msgstr "Angle du Titre Y"
+
+msgid "X Value Angle"
+msgstr "Angle des Valeurs X"
+
+msgid "Y Value Angle"
+msgstr "Angle des Valeurs Y"
+
+msgid "Legend & Colors"
+msgstr "Légende et Couleurs"
+
+msgid "Focus Color"
+msgstr "Couleur de Mise au Point"
+
+msgid "Context Color"
+msgstr "Couleur de Contexte"
+
+msgid "Legend Position"
+msgstr "Position de la Légende"
+
+msgid "Base Text Size"
+msgstr "Taille de Texte de Base"
+
+msgid "Data Frame"
+msgstr "Cadre de Données (Data Frame)"
+
+msgid "X Axis"
+msgstr "Axe X"
+
+msgid "Y Axis"
+msgstr "Axe Y"
+
+msgid "Grouping Variable"
+msgstr "Variable de Groupement"
+
+msgid "Focus Group(s)"
+msgstr "Groupe(s) de Mise au Point"
+
+msgid "Or Highlight Top N"
+msgstr "Ou mettre en évidence les N premiers"
+
+msgid "Frequency Type"
+msgstr "Type de Fréquence"
+
+msgid "Absolute (Sum)"
+msgstr "Absolue (Somme)"
+
+msgid "Relative (100% Stacked)"
+msgstr "Relative (Empilée à 100%)"
+
+msgid "X-Axis Ordering"
+msgstr "Ordre de l'Axe X"
+
+msgid "Highlight Rule"
+msgstr "Règle de Mise en Évidence"
+
+msgid "Name to highlight"
+msgstr "Nom à mettre en évidence"
+
+msgid "Flip Coordinates"
+msgstr "Inverser les Coordonnées"
+
+msgid "Show Value Labels"
+msgstr "Afficher les Étiquettes de Valeur"
+
+msgid "Graphics Device"
+msgstr "Périphérique Graphique"
+
+msgid "Resolution (ppi)"
+msgstr "Résolution (ppi)"
+
+msgid "Background"
+msgstr "Arrière-plan"

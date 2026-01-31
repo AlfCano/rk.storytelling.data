@@ -1,0 +1,81 @@
+<!DOCTYPE rkhelp >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<summary>
+	</summary>
+	<usage>
+	</usage>
+	<!--
+		<section id="sct_EDITORDE" title="EDIT OR DELETE ME">
+			EDIT OR DELETE ME
+		</section>
+	-->
+	<settings>
+		<caption id="tab_Data" />
+		<setting id="slope_data">
+		</setting>
+		<setting id="slope_cat">
+		</setting>
+		<setting id="slope_time">
+		</setting>
+		<setting id="slope_val">
+		</setting>
+		<caption id="tab_Theme" />
+		<caption id="frm_TextLbls" />
+		<setting id="slope_title">
+		</setting>
+		<setting id="slope_subtitle">
+		</setting>
+		<setting id="slope_xlab">
+		</setting>
+		<setting id="slope_ylab">
+		</setting>
+		<setting id="slope_caption">
+		</setting>
+		<caption id="frm_AxsTtlRt" />
+		<setting id="slope_x_title_angle">
+		</setting>
+		<setting id="slope_y_title_angle">
+		</setting>
+		<caption id="frm_AxsVlRtt" />
+		<setting id="slope_x_angle">
+		</setting>
+		<setting id="slope_y_angle">
+		</setting>
+		<caption id="frm_LgndClrs" />
+		<setting id="slope_col_focus">
+		</setting>
+		<setting id="slope_legend_pos">
+		</setting>
+		<setting id="slope_txt_size">
+		</setting>
+		<caption id="tab_OtptExpr" />
+		<caption id="frm_GrphcsDv" />
+		<setting id="slope_dev_type">
+		</setting>
+		<setting id="slope_dev_w">
+		</setting>
+		<setting id="slope_dev_h">
+		</setting>
+		<setting id="slope_dev_res">
+		</setting>
+		<setting id="slope_dev_bg">
+		</setting>
+		<setting id="slope_save">
+		</setting>
+	</settings>
+	<!--
+		<related>
+			<ul>
+				<li>
+					<link href="rkward://rhelp/..." />
+				</li>
+			</ul>
+		</related>
+	-->
+	<technical>
+	</technical>
+</document>

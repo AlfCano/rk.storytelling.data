@@ -1,0 +1,155 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="AdvancedBarChart.js" />
+	<help file="AdvancedBarChart.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="SWD: Advanced Bar Chart">
+		<row id="row_vDDDFXACVN">
+			<varselector id="bar_vs" />
+			<column id="clm_tDDDFXACVN">
+				<tabbook>
+					<tab label="Data" id="tab_Data">
+						<column id="clm_vDFXACVNSF">
+							<varslot id="bar_data" label="Data Frame" source="bar_vs" classes="data.frame" required="true" />
+							<varslot id="bar_cat" label="X Axis (Category)" source="bar_vs" required="true" />
+							<varslot id="bar_val" label="Value (Numeric)" source="bar_vs" required="true" />
+							<varslot id="bar_fill" label="Stack/Fill Variable" source="bar_vs" />
+							<varslot id="bar_facet" label="Facet Variable" source="bar_vs" />
+							<frame label="Freq &amp; Order" id="frm_FreqOrdr">
+								<dropdown id="bar_freq_type" label="Frequency Type">
+									<option label="Absolute (Counts/Sum)" value="abs" checked="true" />
+									<option label="Relative (100% Stacked)" value="rel" />
+								</dropdown>
+								<dropdown id="bar_order" label="X-Axis Ordering">
+									<option label="Default (Alphabetical/Factor)" value="default" checked="true" />
+									<option label="By Frequency (Descending)" value="freq_desc" />
+									<option label="By Frequency (Ascending)" value="freq_asc" />
+								</dropdown>
+								<checkbox id="bar_flip" label="Flip Coordinates" value="1" />
+							</frame>
+						</column>
+					</tab>
+					<tab label="Highlight" id="tab_Highlght">
+						<column id="clm_fRRHRNSNSX">
+							<frame label="Rules" id="frm_Rules">
+								<dropdown id="bar_rule" label="Highlight Rule">
+									<option label="None" value="none" checked="true" />
+									<option label="Specific Name (in Stacks or X)" value="manual" />
+								</dropdown>
+								<input label="Name to highlight" id="bar_man_val" />
+							</frame>
+						</column>
+					</tab>
+					<tab label="Value Labels" id="tab_ValuLbls">
+						<column id="clm_cSVL1FS411">
+							<checkbox id="bar_show_labels" label="Show Value Labels" value="1" checked="true" />
+							<row id="row_sFS4115LCB">
+								<spinbox label="Font Size" id="bar_lbl_size" initial="4" min="1" max="15" />
+								<dropdown id="bar_lbl_col" label="Label Color">
+									<option label="Black" value="black" checked="true" />
+									<option label="White" value="white" />
+									<option label="Gray" value="gray40" />
+								</dropdown>
+							</row>
+							<frame label="Position Adjustment" id="frm_PstnAdjs">
+								<row id="row_sVA0555HA0">
+									<spinbox label="Vertical Adj (vjust)" id="bar_lbl_vjust" initial="0.5" min="-5" max="5" />
+									<spinbox label="Horizontal Adj (hjust)" id="bar_lbl_hjust" initial="0.5" min="-5" max="5" />
+								</row>
+							</frame>
+						</column>
+					</tab>
+					<tab label="Theme" id="tab_Theme">
+						<column id="clm_fTLTLMTSXA">
+							<frame label="Text Labels" id="frm_TextLbls">
+								<input label="Main Title" id="bar_title" />
+								<input label="Subtitle" id="bar_subtitle" />
+								<row id="row_inptXALYAL">
+									<input label="X-Axis Label" id="bar_xlab" />
+									<input label="Y-Axis Label" id="bar_ylab" />
+								</row>
+								<input label="Caption" id="bar_caption" />
+							</frame>
+							<frame label="Axis Title Rotation" id="frm_AxsTtlRt">
+								<row id="row_sXLA9090YL">
+									<spinbox label="X-Label Angle" id="bar_x_title_angle" min="-90" max="90" />
+									<spinbox label="Y-Label Angle" id="bar_y_title_angle" min="-90" max="90" />
+								</row>
+							</frame>
+							<frame label="Axis Value Rotation" id="frm_AxsVlRtt">
+								<row id="row_sXVA9090YV">
+									<spinbox label="X-Values Angle" id="bar_x_angle" min="-90" max="90" />
+									<spinbox label="Y-Values Angle" id="bar_y_angle" min="-90" max="90" />
+								</row>
+							</frame>
+							<frame label="Legend &amp; Colors" id="frm_LgndClrs">
+								<row id="row_cFCSWDR941">
+									<column id="clm_dFCSWDR941">
+										<dropdown id="bar_col_focus" label="Focus Color">
+											<option label="SWD Red (#941100)" value="#941100" checked="true" />
+											<option label="SWD Blue (#1F77B4)" value="#1F77B4" />
+											<option label="SWD Orange (#FF7F0E)" value="#FF7F0E" />
+											<option label="SWD Green (#2CA02C)" value="#2CA02C" />
+											<option label="SWD Purple (#9467BD)" value="#9467BD" />
+											<option label="SWD Teal (#17BECF)" value="#17BECF" />
+											<option label="Black" value="black" />
+										</dropdown>
+									</column>
+									<column id="clm_drpLPTBLRN">
+										<dropdown id="bar_legend_pos" label="Legend Position">
+											<option label="Top" value="top" checked="true" />
+											<option label="Bottom" value="bottom" />
+											<option label="Left" value="left" />
+											<option label="Right" value="right" />
+											<option label="None" value="none" />
+										</dropdown>
+									</column>
+								</row>
+							</frame>
+							<spinbox label="Base Text Size" id="bar_txt_size" initial="12" min="8" max="30" />
+						</column>
+					</tab>
+					<tab label="Output &amp; Export" id="tab_OtptExpr">
+						<column id="clm_fGDGDDPNGP">
+							<frame label="Graphics Device" id="frm_GrphcsDv">
+								<dropdown id="bar_dev_type" label="Device type">
+									<option label="PNG" value="PNG" checked="true" />
+									<option label="SVG" value="SVG" />
+									<option label="JPG" value="JPG" />
+								</dropdown>
+								<row id="row_sW10241004">
+									<spinbox label="Width (px)" id="bar_dev_w" initial="1024" min="100" max="4000" />
+									<spinbox label="Height (px)" id="bar_dev_h" initial="768" min="100" max="4000" />
+								</row>
+								<column id="clm_sR15050600">
+									<spinbox label="Resolution (ppi)" id="bar_dev_res" initial="150" min="50" max="600" />
+									<dropdown id="bar_dev_bg" label="Background">
+										<option label="Transparent" value="transparent" checked="true" />
+										<option label="White" value="white" />
+									</dropdown>
+								</column>
+							</frame>
+							<saveobject label="Save Plot Object" checkable="true" checked="true" initial="p_bar_adv" id="bar_save" />
+							<preview label="Preview" id="bar_preview" />
+						</column>
+					</tab>
+				</tabbook>
+			</column>
+		</row>
+	</dialog>
+</document>

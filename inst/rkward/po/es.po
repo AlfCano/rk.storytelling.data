@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+msgid "Storytelling with Data"
+msgstr "Storytelling con Datos"
+
+msgid "Focus Line Chart"
+msgstr "Gráfico de Líneas de Enfoque"
+
+msgid "SWD: Focus Line Chart"
+msgstr "SWD: Gráfico de Líneas de Enfoque"
+
+msgid "SWD: Focus Scatter Plot"
+msgstr "SWD: Gráfico de Dispersión de Enfoque"
+
+msgid "SWD: Advanced Bar Chart"
+msgstr "SWD: Gráfico de Barras Avanzado"
+
+msgid "SWD: Slopegraph"
+msgstr "SWD: Gráfico de Pendiente (Slopegraph)"
+
+msgid "SWD: Dumbbell Plot"
+msgstr "SWD: Gráfico de Pesas (Dumbbell)"
+
+msgid "SWD: Big Number Summary"
+msgstr "SWD: Resumen de Número Grande"
+
+msgid "Text Labels"
+msgstr "Etiquetas de Texto"
+
+msgid "Main Title"
+msgstr "Título Principal"
+
+msgid "Subtitle"
+msgstr "Subtítulo"
+
+msgid "X-Axis Label"
+msgstr "Etiqueta Eje X"
+
+msgid "Y-Axis Label"
+msgstr "Etiqueta Eje Y"
+
+msgid "Caption"
+msgstr "Nota al Pie"
+
+msgid "Focus Color"
+msgstr "Color de Enfoque"
+
+msgid "Context Color"
+msgstr "Color de Contexto"
+
+msgid "Legend Position"
+msgstr "Posición de Leyenda"
+
+msgid "Data Frame"
+msgstr "Marco de Datos"
+
+msgid "X Axis"
+msgstr "Eje X"
+
+msgid "Y Axis"
+msgstr "Eje Y"
+
+msgid "Grouping Variable"
+msgstr "Variable de Agrupación"
+
+msgid "Focus Group(s)"
+msgstr "Grupo(s) de Enfoque"
+
+msgid "Or Highlight Top N"
+msgstr "O resaltar los N mejores"
+
+msgid "Frequency Type"
+msgstr "Tipo de Frecuencia"
+
+msgid "Absolute (Sum)"
+msgstr "Absoluta (Suma)"
+
+msgid "Relative (100% Stacked)"
+msgstr "Relativa (Apilada al 100%)"
+
+msgid "Flip Coordinates"
+msgstr "Invertir Coordenadas"
+
+msgid "Show Value Labels"
+msgstr "Mostrar Etiquetas de Valor"
+
+msgid "Resolution (ppi)"
+msgstr "Resolución (ppi)"
+
+msgid "Background"
+msgstr "Fondo"

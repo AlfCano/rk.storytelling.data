@@ -1,0 +1,17 @@
+Package: rk.storytelling.data
+Type: Package
+Title: A collection of ggplot2 wrappers designed for 'Storytelling with
+        Data' (SWD) principles.
+Version: 0.1.0
+Date: 2026-01-31
+Author: Alfonso Cano
+Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>
+Enhances: rkward
+Description: A collection of ggplot2 wrappers designed for
+        'Storytelling with Data' (SWD) principles.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: https://github.com/AlfCano/rk.storytelling.data
+Authors@R: person(given="Alfonso", family="Cano",
+        email="alfonso.cano@correo.buap.mx", role=c("aut", "cre"))
