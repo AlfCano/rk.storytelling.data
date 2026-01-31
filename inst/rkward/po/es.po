@@ -1,22 +1,21 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Project-Id-Version: rk.storytelling.data 0.1.0\n"
 "Language: es\n"
-"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"PO-Revision-Date: 2026-01-31\n"
+"Last-Translator: Alfonso Cano <alfonso.cano@correo.buap.mx>\n"
+"Language-Team: Spanish\n"
 
+# Jerarquía del Menú
 msgid "Storytelling with Data"
 msgstr "Storytelling con Datos"
 
 msgid "Focus Line Chart"
 msgstr "Gráfico de Líneas de Enfoque"
 
+# Títulos de Diálogo
 msgid "SWD: Focus Line Chart"
 msgstr "SWD: Gráfico de Líneas de Enfoque"
 
@@ -35,6 +34,26 @@ msgstr "SWD: Gráfico de Pesas (Dumbbell)"
 msgid "SWD: Big Number Summary"
 msgstr "SWD: Resumen de Número Grande"
 
+# Pestañas
+msgid "Data"
+msgstr "Datos"
+
+msgid "Highlight"
+msgstr "Resaltar"
+
+msgid "Value Labels"
+msgstr "Etiquetas de Valor"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Output & Export"
+msgstr "Salida y Exportación"
+
+msgid "Content"
+msgstr "Contenido"
+
+# Etiquetas Generales de Texto
 msgid "Text Labels"
 msgstr "Etiquetas de Texto"
 
@@ -45,13 +64,45 @@ msgid "Subtitle"
 msgstr "Subtítulo"
 
 msgid "X-Axis Label"
-msgstr "Etiqueta Eje X"
+msgstr "Etiqueta del Eje X"
 
 msgid "Y-Axis Label"
-msgstr "Etiqueta Eje Y"
+msgstr "Etiqueta del Eje Y"
 
 msgid "Caption"
 msgstr "Nota al Pie"
+
+# Rotaciones
+msgid "Rotation Adjustment"
+msgstr "Ajuste de Rotación"
+
+msgid "X Title Angle"
+msgstr "Ángulo del Título X"
+
+msgid "Y Title Angle"
+msgstr "Ángulo del Título Y"
+
+msgid "X Value Angle"
+msgstr "Ángulo de Valores X"
+
+msgid "Y Value Angle"
+msgstr "Ángulo de Valores Y"
+
+msgid "X-Label Angle"
+msgstr "Ángulo de Etiqueta X"
+
+msgid "Y-Label Angle"
+msgstr "Ángulo de Etiqueta Y"
+
+msgid "X-Values Angle"
+msgstr "Ángulo de Valores X"
+
+msgid "Y-Values Angle"
+msgstr "Ángulo de Valores Y"
+
+# Colores y Leyenda
+msgid "Legend & Colors"
+msgstr "Leyenda y Colores"
 
 msgid "Focus Color"
 msgstr "Color de Enfoque"
@@ -60,10 +111,79 @@ msgid "Context Color"
 msgstr "Color de Contexto"
 
 msgid "Legend Position"
-msgstr "Posición de Leyenda"
+msgstr "Posición de la Leyenda"
 
+msgid "Base Text Size"
+msgstr "Tamaño de Texto Base"
+
+# Opciones de Colores
+msgid "SWD Red (#941100)"
+msgstr "Rojo SWD (#941100)"
+
+msgid "SWD Blue (#1F77B4)"
+msgstr "Azul SWD (#1F77B4)"
+
+msgid "SWD Orange (#FF7F0E)"
+msgstr "Naranja SWD (#FF7F0E)"
+
+msgid "SWD Green (#2CA02C)"
+msgstr "Verde SWD (#2CA02C)"
+
+msgid "SWD Purple (#9467BD)"
+msgstr "Púrpura SWD (#9467BD)"
+
+msgid "SWD Teal (#17BECF)"
+msgstr "Turquesa SWD (#17BECF)"
+
+msgid "Dark Gray (#404040)"
+msgstr "Gris Oscuro (#404040)"
+
+msgid "Light Gray (#D9D9D9)"
+msgstr "Gris Claro (#D9D9D9)"
+
+msgid "Mid Gray (#BFBFBF)"
+msgstr "Gris Medio (#BFBFBF)"
+
+msgid "Dark Gray"
+msgstr "Gris Oscuro"
+
+msgid "Light Gray"
+msgstr "Gris Claro"
+
+msgid "Black"
+msgstr "Negro"
+
+msgid "White"
+msgstr "Blanco"
+
+msgid "Gray"
+msgstr "Gris"
+
+# Posiciones de Leyenda
+msgid "Top"
+msgstr "Arriba"
+
+msgid "Bottom"
+msgstr "Abajo"
+
+msgid "Left"
+msgstr "Izquierda"
+
+msgid "Right"
+msgstr "Derecha"
+
+msgid "None"
+msgstr "Ninguna"
+
+# Variables y Campos de Datos
 msgid "Data Frame"
-msgstr "Marco de Datos"
+msgstr "Marco de Datos (Data Frame)"
+
+msgid "X Axis (Category)"
+msgstr "Eje X (Categoría)"
+
+msgid "Value (Numeric)"
+msgstr "Valor (Numérico)"
 
 msgid "X Axis"
 msgstr "Eje X"
@@ -74,12 +194,50 @@ msgstr "Eje Y"
 msgid "Grouping Variable"
 msgstr "Variable de Agrupación"
 
+msgid "Entity Variable"
+msgstr "Variable de Entidad"
+
+msgid "Label Variable"
+msgstr "Variable de Etiqueta"
+
+msgid "Stack/Fill Variable"
+msgstr "Variable de Apilado/Relleno"
+
+msgid "Facet Variable"
+msgstr "Variable de Faceta"
+
+msgid "Time (2 levels)"
+msgstr "Tiempo (2 niveles)"
+
+msgid "Start Value"
+msgstr "Valor Inicial"
+
+msgid "End Value"
+msgstr "Valor Final"
+
+msgid "Large Value"
+msgstr "Valor Grande"
+
+msgid "Context Text"
+msgstr "Texto de Contexto"
+
+# Reglas de Enfoque y Resaltado
+msgid "Highlight Rule"
+msgstr "Regla de Resaltado"
+
 msgid "Focus Group(s)"
 msgstr "Grupo(s) de Enfoque"
 
 msgid "Or Highlight Top N"
-msgstr "O resaltar los N mejores"
+msgstr "O resaltar los mejores N"
 
+msgid "Name to highlight"
+msgstr "Nombre a resaltar"
+
+msgid "Specific Name (in Stacks or X)"
+msgstr "Nombre Específico (en Pilas o X)"
+
+# Opciones de Gráfico de Barras
 msgid "Frequency Type"
 msgstr "Tipo de Frecuencia"
 
@@ -87,7 +245,19 @@ msgid "Absolute (Sum)"
 msgstr "Absoluta (Suma)"
 
 msgid "Relative (100% Stacked)"
-msgstr "Relativa (Apilada al 100%)"
+msgstr "Relativa (Apilada 100%)"
+
+msgid "X-Axis Ordering"
+msgstr "Orden del Eje X"
+
+msgid "Default"
+msgstr "Por Defecto"
+
+msgid "Frequency (Desc)"
+msgstr "Frecuencia (Desc)"
+
+msgid "Frequency (Asc)"
+msgstr "Frecuencia (Asc)"
 
 msgid "Flip Coordinates"
 msgstr "Invertir Coordenadas"
@@ -95,8 +265,72 @@ msgstr "Invertir Coordenadas"
 msgid "Show Value Labels"
 msgstr "Mostrar Etiquetas de Valor"
 
+# Ajustes de Etiquetas de Valor
+msgid "Size"
+msgstr "Tamaño"
+
+msgid "Color"
+msgstr "Color"
+
+msgid "vjust"
+msgstr "Ajuste Vertical (vjust)"
+
+msgid "hjust"
+msgstr "Ajuste Horizontal (hjust)"
+
+# Opciones de Gráfico de Dispersión
+msgid "Show Average X Line"
+msgstr "Mostrar Línea de Promedio X"
+
+msgid "Show Average Y Line"
+msgstr "Mostrar Línea de Promedio Y"
+
+msgid "Show Average Intersection Dot"
+msgstr "Mostrar Punto de Intersección de Promedios"
+
+msgid "Use Capped Axes (SWD Style)"
+msgstr "Usar Ejes Limitados (Estilo SWD)"
+
+# Dispositivo Gráfico
+msgid "Graphics Device"
+msgstr "Dispositivo Gráfico"
+
+msgid "Device type"
+msgstr "Tipo de dispositivo"
+
+msgid "Width (px)"
+msgstr "Ancho (px)"
+
+msgid "Height (px)"
+msgstr "Alto (px)"
+
 msgid "Resolution (ppi)"
 msgstr "Resolución (ppi)"
 
 msgid "Background"
 msgstr "Fondo"
+
+msgid "Transparent"
+msgstr "Transparente"
+
+msgid "Save Plot Object"
+msgstr "Guardar Objeto de Gráfico"
+
+# Encabezados de Resultados
+msgid "Focus Line Chart results"
+msgstr "Resultados del gráfico de líneas de enfoque"
+
+msgid "Focus Scatter Plot results"
+msgstr "Resultados del gráfico de dispersión de enfoque"
+
+msgid "Advanced Bar Chart results"
+msgstr "Resultados del gráfico de barras avanzado"
+
+msgid "Slopegraph results"
+msgstr "Resultados del gráfico de pendiente"
+
+msgid "Dumbbell Plot results"
+msgstr "Resultados del gráfico de pesas"
+
+msgid "Big Number Summary results"
+msgstr "Resultados del resumen de número grande"
