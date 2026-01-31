@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/badge/Version-0.1.0-blue.svg)
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
-[![R Linter](https://github.com/AlfCano/rk.data.wrangling/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.data.wrangling/actions/workflows/lintr.yml)
+[![R Linter](https://github.com/AlfCano/rk.storytelling.data/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.storytelling.data/actions/workflows/lintr.yml)
 
 **rk.storytelling.data** brings the principles of Cole Nussbaumer Knaflic's *"Storytelling with Data" (SWD)* to the RKWard GUI. It provides a specialized collection of `ggplot2` wrappers designed to reduce cognitive load, eliminate clutter, and use color strategically to highlight the most important parts of your data.
 
