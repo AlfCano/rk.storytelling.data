@@ -18,10 +18,10 @@
 	-->
 	<about
 		name="rk.storytelling.data"
-		shortinfo="A collection of ggplot2 wrappers designed for 'Storytelling with Data' (SWD) principles."
-		longinfo="A collection of ggplot2 wrappers designed for 'Storytelling with Data' (SWD) principles."
-		version="0.1.0"
-		releasedate="2026-01-31"
+		shortinfo="A collection of ggplot2 wrappers designed for 'Storytelling with Data' (SWD). Includes advanced labeling controls."
+		longinfo="A collection of ggplot2 wrappers designed for 'Storytelling with Data' (SWD). Includes advanced labeling controls."
+		version="0.3.0"
+		releasedate="2026-02-06"
 		url="https://github.com/AlfCano/rk.storytelling.data"
 		license="GPL (&gt;= 3)"
 	>

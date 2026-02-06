@@ -29,9 +29,41 @@
 							<varslot id="line_x" label="X Axis" source="line_vs" required="true" />
 							<varslot id="line_y" label="Y Axis" source="line_vs" required="true" />
 							<varslot id="line_grp" label="Grouping Variable" source="line_vs" required="true" />
-							<frame id="frm_iFGOHTN020">
+							<frame label="Focus Definition" id="frm_FcsDfntn">
 								<input label="Focus Group(s)" id="line_focus_groups" />
 								<spinbox label="Or Highlight Top N" id="line_top_n" min="0" max="20" />
+							</frame>
+							<frame label="Special Emphasis" id="frm_SpclEmph">
+								<input label="Y-Axis Min Limit (Empty = Auto)" id="line_y_min" />
+								<input label="Emphasis Point (X Value)" id="line_emph_x" size="small" />
+								<text id="txt_Entr2023">
+									Enter value to add a circle (e.g., 2023).
+								</text>
+							</frame>
+						</column>
+					</tab>
+					<tab label="Labels" id="tab_Labels">
+						<column id="clm_fSSLCLAS1A">
+							<frame label="Scope" id="frm_Scope">
+								<checkbox id="line_lbl_show_ctx" label="Label Context Lines (All Series)" value="1" />
+							</frame>
+							<frame label="Appearance (ggrepel)" id="frm_Apprncgg">
+								<row id="row_sHN05010TS">
+									<spinbox label="Horizontal Nudge (nudge_x)" id="line_lbl_nudge" initial="0.5" min="0" max="10" />
+									<spinbox label="Text Size" id="line_lbl_size" initial="4.5" min="1" max="20" />
+								</row>
+								<row id="row_dFSBPIRDYV">
+									<dropdown id="line_lbl_face" label="Font Style">
+										<option label="Bold" value="bold" checked="true" />
+										<option label="Plain" value="plain" />
+										<option label="Italic" value="italic" />
+									</dropdown>
+									<dropdown id="line_lbl_dir" label="Repel Direction">
+										<option label="Y (Vertical Adjustment Only)" value="y" checked="true" />
+										<option label="X (Horizontal Adjustment Only)" value="x" />
+										<option label="Both" value="both" />
+									</dropdown>
+								</row>
 							</frame>
 						</column>
 					</tab>
@@ -62,10 +94,10 @@
 								<row id="row_cFCSWDR941">
 									<column id="clm_dFCSWDR941">
 										<dropdown id="line_col_focus" label="Focus Color">
-											<option label="SWD Red (#941100)" value="#941100" checked="true" />
+											<option label="SWD Red (#941100)" value="#941100" />
+											<option label="SWD Green (#2CA02C)" value="#2CA02C" checked="true" />
 											<option label="SWD Blue (#1F77B4)" value="#1F77B4" />
 											<option label="SWD Orange (#FF7F0E)" value="#FF7F0E" />
-											<option label="SWD Green (#2CA02C)" value="#2CA02C" />
 											<option label="SWD Purple (#9467BD)" value="#9467BD" />
 											<option label="SWD Teal (#17BECF)" value="#17BECF" />
 											<option label="Black" value="black" />
@@ -73,16 +105,16 @@
 									</column>
 									<column id="clm_drpLPTBLRN">
 										<dropdown id="line_legend_pos" label="Legend Position">
-											<option label="Top" value="top" checked="true" />
+											<option label="Top" value="top" />
 											<option label="Bottom" value="bottom" />
 											<option label="Left" value="left" />
 											<option label="Right" value="right" />
-											<option label="None" value="none" />
+											<option label="None" value="none" checked="true" />
 										</dropdown>
 									</column>
 								</row>
 							</frame>
-							<spinbox label="Base Text Size" id="line_txt_size" initial="12" min="8" max="30" />
+							<spinbox label="Base Text Size" id="line_txt_size" initial="14" min="8" max="30" />
 						</column>
 					</tab>
 					<tab label="Output &amp; Export" id="tab_OtptExpr">
@@ -93,15 +125,15 @@
 									<option label="SVG" value="SVG" />
 									<option label="JPG" value="JPG" />
 								</dropdown>
-								<row id="row_sW10241004">
-									<spinbox label="Width (px)" id="line_dev_w" initial="1024" min="100" max="4000" />
-									<spinbox label="Height (px)" id="line_dev_h" initial="768" min="100" max="4000" />
+								<row id="row_sW12001004">
+									<spinbox label="Width (px)" id="line_dev_w" initial="1200" min="100" max="4000" />
+									<spinbox label="Height (px)" id="line_dev_h" initial="800" min="100" max="4000" />
 								</row>
 								<column id="clm_sR15050600">
 									<spinbox label="Resolution (ppi)" id="line_dev_res" initial="150" min="50" max="600" />
 									<dropdown id="line_dev_bg" label="Background">
-										<option label="Transparent" value="transparent" checked="true" />
-										<option label="White" value="white" />
+										<option label="White" value="white" checked="true" />
+										<option label="Transparent" value="transparent" />
 									</dropdown>
 								</column>
 							</frame>

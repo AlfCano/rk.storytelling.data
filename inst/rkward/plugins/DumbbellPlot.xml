@@ -58,10 +58,10 @@
 								<row id="row_cFCSWDR941">
 									<column id="clm_dFCSWDR941">
 										<dropdown id="dumb_col_focus" label="Focus Color">
-											<option label="SWD Red (#941100)" value="#941100" checked="true" />
+											<option label="SWD Red (#941100)" value="#941100" />
+											<option label="SWD Green (#2CA02C)" value="#2CA02C" checked="true" />
 											<option label="SWD Blue (#1F77B4)" value="#1F77B4" />
 											<option label="SWD Orange (#FF7F0E)" value="#FF7F0E" />
-											<option label="SWD Green (#2CA02C)" value="#2CA02C" />
 											<option label="SWD Purple (#9467BD)" value="#9467BD" />
 											<option label="SWD Teal (#17BECF)" value="#17BECF" />
 											<option label="Black" value="black" />
@@ -69,16 +69,16 @@
 									</column>
 									<column id="clm_drpLPTBLRN">
 										<dropdown id="dumb_legend_pos" label="Legend Position">
-											<option label="Top" value="top" checked="true" />
+											<option label="Top" value="top" />
 											<option label="Bottom" value="bottom" />
 											<option label="Left" value="left" />
 											<option label="Right" value="right" />
-											<option label="None" value="none" />
+											<option label="None" value="none" checked="true" />
 										</dropdown>
 									</column>
 								</row>
 							</frame>
-							<spinbox label="Base Text Size" id="dumb_txt_size" initial="12" min="8" max="30" />
+							<spinbox label="Base Text Size" id="dumb_txt_size" initial="14" min="8" max="30" />
 						</column>
 					</tab>
 					<tab label="Output &amp; Export" id="tab_OtptExpr">
@@ -89,15 +89,15 @@
 									<option label="SVG" value="SVG" />
 									<option label="JPG" value="JPG" />
 								</dropdown>
-								<row id="row_sW10241004">
-									<spinbox label="Width (px)" id="dumb_dev_w" initial="1024" min="100" max="4000" />
-									<spinbox label="Height (px)" id="dumb_dev_h" initial="768" min="100" max="4000" />
+								<row id="row_sW12001004">
+									<spinbox label="Width (px)" id="dumb_dev_w" initial="1200" min="100" max="4000" />
+									<spinbox label="Height (px)" id="dumb_dev_h" initial="800" min="100" max="4000" />
 								</row>
 								<column id="clm_sR15050600">
 									<spinbox label="Resolution (ppi)" id="dumb_dev_res" initial="150" min="50" max="600" />
 									<dropdown id="dumb_dev_bg" label="Background">
-										<option label="Transparent" value="transparent" checked="true" />
-										<option label="White" value="white" />
+										<option label="White" value="white" checked="true" />
+										<option label="Transparent" value="transparent" />
 									</dropdown>
 								</column>
 							</frame>

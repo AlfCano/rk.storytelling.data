@@ -1,19 +1,22 @@
 # rk.storytelling.data: High-Impact Visualization for RKWard
 
-![Version](https://img.shields.io/badge/Version-0.1.0-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.2.1-blue.svg)
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![RKWard](https://img.shields.io/badge/Platform-RKWard-green)
 [![R Linter](https://github.com/AlfCano/rk.storytelling.data/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.storytelling.data/actions/workflows/lintr.yml)
 
 **rk.storytelling.data** brings the principles of Cole Nussbaumer Knaflic's *"Storytelling with Data" (SWD)* to the RKWard GUI. It provides a specialized collection of `ggplot2` wrappers designed to reduce cognitive load, eliminate clutter, and use color strategically to highlight the most important parts of your data.
 
-## 🚀 What's New in Version 0.1.0
+## 🚀 What's New in Version 0.2.1
 
-This is the initial release of the storytelling suite, featuring:
+This update focuses on fine-grained control for publication-ready line charts:
 
-*   **SWD Formatting Engine:** All plots automatically implement professional storytelling standards: horizontal Y-axis titles positioned at the top-left, clean minimal grids, and "capped" axes (via the `lemon` package) that stop exactly at the data limits.
-*   **Focus Logic:** Integrated highlighting rules (Max, Min, or Manual) across multiple chart types to draw the audience's eye instantly to the "so-what" of the visualization.
-*   **High-Fidelity Components:** Includes six specialized plugins ranging from Advanced Bar Charts to "Big Number" impact cards.
+*   **Dedicated "Labels" Tab:** A new interface section for the *Focus Line Chart* that gives you full control over text labels (`ggrepel`).
+    *   **Context Labeling:** Checkbox to toggle whether to label *all* lines (context + focus) or *only* the focus line.
+    *   **Precision Control:** Adjustable spinboxes for horizontal nudging (`nudge_x`) and text size.
+    *   **Styling:** Dropdowns for font style (Bold/Plain/Italic) and repel direction (X/Y/Both).
+*   **Emphasis Point (Sorpasso):** New input to manually add a "hollow circle" emphasis mark at a specific X-value on the focus line (ideal for highlighting intersection points).
+*   **Automatic Color Inheritance:** Labels now intelligently inherit the color of their parent line (Focus Color vs. Context Gray).
 
 ## ✨ Features
 
@@ -30,7 +33,8 @@ This is the initial release of the storytelling suite, featuring:
 
 ### 3. Focus Line Chart
 *   **Series Highlighting:** Highlight one or more specific lines (e.g., "Company Performance") against a background of context lines (e.g., "Market Average").
-*   **Auto-labeling:** Automatically places the series label at the end of the focus line for immediate identification.
+*   **Advanced Labeling:** Control exactly which lines get labeled and how those labels are positioned without writing R code.
+*   **Emphasis Logic:** Add visual markers to key data points to tell a specific story (e.g., "The moment we surpassed the competition").
 
 ### 4. Slopegraph & Dumbbell Plots
 *   **Slopegraph:** Perfect for showing relative increases and decreases between two points in time.

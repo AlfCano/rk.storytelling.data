@@ -1,32 +1,21 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: rk.storytelling.data 0.2.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-02-06 13:35-0600\n"
+"PO-Revision-Date: 2026-02-06 14:00-0600\n"
+"Last-Translator: Full Name <email@address>\n"
+"Language-Team: Portuguese (Brazil) <pt_BR@li.org>\n"
 "Language: pt_BR\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "A collection of ggplot2 wrappers designed for 'Storytelling with Data' (SWD). Now includes advanced Label controls."
+msgstr "Uma coleção de wrappers do ggplot2 projetados para 'Storytelling with Data' (SWD). Agora inclui controles avançados de rótulos."
+
 msgid "Storytelling with Data"
 msgstr "Storytelling com Dados"
-
-msgid "Focus Line Chart"
-msgstr "Gráfico de Linhas de Foco"
-
-msgid "SWD: Focus Line Chart"
-msgstr "SWD: Gráfico de Linhas de Foco"
-
-msgid "SWD: Focus Scatter Plot"
-msgstr "SWD: Gráfico de Dispersão de Foco"
-
-msgid "SWD: Advanced Bar Chart"
-msgstr "SWD: Gráfico de Barras Avançado"
-
-msgid "SWD: Slopegraph"
-msgstr "SWD: Gráfico de Inclinação (Slopegraph)"
-
-msgid "SWD: Dumbbell Plot"
-msgstr "SWD: Gráfico de Halteres (Dumbbell)"
-
-msgid "SWD: Big Number Summary"
-msgstr "SWD: Resumo de Números Grandes"
 
 msgid "Text Labels"
 msgstr "Rótulos de Texto"
@@ -38,28 +27,31 @@ msgid "Subtitle"
 msgstr "Subtítulo"
 
 msgid "X-Axis Label"
-msgstr "Rótulo do Eixo X"
+msgstr "Rótulo Eixo X"
 
 msgid "Y-Axis Label"
-msgstr "Rótulo do Eixo Y"
+msgstr "Rótulo Eixo Y"
 
 msgid "Caption"
-msgstr "Legenda (Rodapé)"
+msgstr "Legenda / Fonte"
 
-msgid "Rotation Adjustment"
-msgstr "Ajuste de Rotação"
+msgid "Axis Title Rotation"
+msgstr "Rotação do Título do Eixo"
 
-msgid "X Title Angle"
-msgstr "Ângulo do Título X"
+msgid "X-Label Angle"
+msgstr "Ângulo Rótulo X"
 
-msgid "Y Title Angle"
-msgstr "Ângulo do Título Y"
+msgid "Y-Label Angle"
+msgstr "Ângulo Rótulo Y"
 
-msgid "X Value Angle"
-msgstr "Ângulo dos Valores X"
+msgid "Axis Value Rotation"
+msgstr "Rotação Valores do Eixo"
 
-msgid "Y Value Angle"
-msgstr "Ângulo dos Valores Y"
+msgid "X-Values Angle"
+msgstr "Ângulo Valores X"
+
+msgid "Y-Values Angle"
+msgstr "Ângulo Valores Y"
 
 msgid "Legend & Colors"
 msgstr "Legenda e Cores"
@@ -67,17 +59,65 @@ msgstr "Legenda e Cores"
 msgid "Focus Color"
 msgstr "Cor de Foco"
 
-msgid "Context Color"
-msgstr "Cor de Contexto"
-
 msgid "Legend Position"
 msgstr "Posição da Legenda"
 
+msgid "Top"
+msgstr "Topo"
+
+msgid "Bottom"
+msgstr "Base"
+
+msgid "Left"
+msgstr "Esquerda"
+
+msgid "Right"
+msgstr "Direita"
+
+msgid "None"
+msgstr "Nenhuma"
+
 msgid "Base Text Size"
-msgstr "Tamanho do Texto Base"
+msgstr "Tamanho Base do Texto"
+
+msgid "Graphics Device"
+msgstr "Dispositivo Gráfico"
+
+msgid "Device type"
+msgstr "Tipo de dispositivo"
+
+msgid "Width (px)"
+msgstr "Largura (px)"
+
+msgid "Height (px)"
+msgstr "Altura (px)"
+
+msgid "Resolution (ppi)"
+msgstr "Resolução (ppi)"
+
+msgid "Background"
+msgstr "Fundo"
+
+msgid "White"
+msgstr "Branco"
+
+msgid "Transparent"
+msgstr "Transparente"
+
+msgid "Save Plot Object"
+msgstr "Salvar Objeto do Gráfico"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Output & Export"
+msgstr "Saída e Exportação"
+
+msgid "Data"
+msgstr "Dados"
 
 msgid "Data Frame"
-msgstr "Quadro de Dados (Data Frame)"
+msgstr "Data Frame"
 
 msgid "X Axis"
 msgstr "Eixo X"
@@ -85,29 +125,149 @@ msgstr "Eixo X"
 msgid "Y Axis"
 msgstr "Eixo Y"
 
+msgid "Focus Line Chart"
+msgstr "Gráfico de Linhas de Foco"
+
+msgid "SWD: Focus Line Chart"
+msgstr "SWD: Gráfico de Linhas de Foco"
+
 msgid "Grouping Variable"
-msgstr "Variable de Agrupamento"
+msgstr "Variável de Agrupamento"
 
 msgid "Focus Group(s)"
 msgstr "Grupo(s) de Foco"
 
 msgid "Or Highlight Top N"
-msgstr "Ou destacar os N melhores"
+msgstr "Ou destacar Top N"
+
+msgid "Y-Axis Min Limit (Empty = Auto)"
+msgstr "Limite Min Eixo Y (Vazio = Auto)"
+
+msgid "Emphasis Point (X Value)"
+msgstr "Ponto de Ênfase (Valor X)"
+
+msgid "Enter value to add a circle (e.g., 2023)."
+msgstr "Insira valor para adicionar círculo (ex: 2023)."
+
+msgid "Label Context Lines (All Series)"
+msgstr "Rotular linhas de contexto (Todas as séries)"
+
+msgid "Horizontal Nudge (nudge_x)"
+msgstr "Deslocamento Horizontal (nudge_x)"
+
+msgid "Text Size"
+msgstr "Tamanho do Texto"
+
+msgid "Font Style"
+msgstr "Estilo da Fonte"
+
+msgid "Bold"
+msgstr "Negrito"
+
+msgid "Plain"
+msgstr "Normal"
+
+msgid "Italic"
+msgstr "Itálico"
+
+msgid "Repel Direction"
+msgstr "Direção de Repulsão"
+
+msgid "Y (Vertical Adjustment Only)"
+msgstr "Y (Apenas Ajuste Vertical)"
+
+msgid "X (Horizontal Adjustment Only)"
+msgstr "X (Apenas Ajuste Horizontal)"
+
+msgid "Both"
+msgstr "Ambos"
+
+msgid "Scope"
+msgstr "Escopo"
+
+msgid "Appearance (ggrepel)"
+msgstr "Aparência (ggrepel)"
+
+msgid "Focus Definition"
+msgstr "Definição de Foco"
+
+msgid "Special Emphasis"
+msgstr "Ênfase Especial"
+
+msgid "Labels"
+msgstr "Rótulos"
+
+msgid "Focus Scatter Plot"
+msgstr "Gráfico de Dispersão de Foco"
+
+msgid "SWD: Focus Scatter Plot"
+msgstr "SWD: Gráfico de Dispersão de Foco"
+
+msgid "Label Variable"
+msgstr "Variável de Rótulo"
+
+msgid "Show Average X Line"
+msgstr "Mostrar Linha Média X"
+
+msgid "Show Average Y Line"
+msgstr "Mostrar Linha Média Y"
+
+msgid "Show Average Intersection Dot"
+msgstr "Mostrar Ponto de Interseção Médio"
+
+msgid "Use Capped Axes (SWD Style)"
+msgstr "Usar Eixos Recortados (Estilo SWD)"
+
+msgid "Averages"
+msgstr "Médias"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Advanced Bar Chart"
+msgstr "Gráfico de Barras Avançado"
+
+msgid "SWD: Advanced Bar Chart"
+msgstr "SWD: Gráfico de Barras Avançado"
+
+msgid "X Axis (Category)"
+msgstr "Eixo X (Categoria)"
+
+msgid "Value (Numeric)"
+msgstr "Valor (Numérico)"
+
+msgid "Stack/Fill Variable"
+msgstr "Variável de Empilhamento/Preenchimento"
+
+msgid "Facet Variable"
+msgstr "Variável de Faceta"
 
 msgid "Frequency Type"
 msgstr "Tipo de Frequência"
 
-msgid "Absolute (Sum)"
-msgstr "Absoluto (Soma)"
+msgid "Absolute (Counts/Sum)"
+msgstr "Absoluta (Contagens/Soma)"
 
 msgid "Relative (100% Stacked)"
-msgstr "Relativo (Empilhado 100%)"
+msgstr "Relativa (100% Empilhada)"
 
 msgid "X-Axis Ordering"
-msgstr "Ordenação do Eixo X"
+msgstr "Ordenação Eixo X"
+
+msgid "Default (Alphabetical/Factor)"
+msgstr "Padrão (Alfabético/Fator)"
+
+msgid "By Frequency (Descending)"
+msgstr "Por Frequência (Descendente)"
+
+msgid "By Frequency (Ascending)"
+msgstr "Por Frequência (Ascendente)"
 
 msgid "Highlight Rule"
 msgstr "Regra de Destaque"
+
+msgid "Specific Name (in Stacks or X)"
+msgstr "Nome Específico (em Pilhas ou X)"
 
 msgid "Name to highlight"
 msgstr "Nome para destacar"
@@ -118,11 +278,68 @@ msgstr "Inverter Coordenadas"
 msgid "Show Value Labels"
 msgstr "Mostrar Rótulos de Valor"
 
-msgid "Graphics Device"
-msgstr "Dispositivo Gráfico"
+msgid "Position Adjustment"
+msgstr "Ajuste de Posição"
 
-msgid "Resolution (ppi)"
-msgstr "Resolução (ppi)"
+msgid "Vertical Adj (vjust)"
+msgstr "Ajuste Vertical (vjust)"
 
-msgid "Background"
-msgstr "Fundo"
+msgid "Horizontal Adj (hjust)"
+msgstr "Ajuste Horizontal (hjust)"
+
+msgid "Freq & Order"
+msgstr "Frequência e Ordem"
+
+msgid "Highlight"
+msgstr "Destaque"
+
+msgid "Rules"
+msgstr "Regras"
+
+msgid "Slopegraph"
+msgstr "Gráfico de Inclinação (Slopegraph)"
+
+msgid "SWD: Slopegraph"
+msgstr "SWD: Gráfico de Inclinação"
+
+msgid "Entity Variable"
+msgstr "Variável de Entidade"
+
+msgid "Time (2 levels)"
+msgstr "Tempo (2 níveis)"
+
+msgid "Value"
+msgstr "Valor"
+
+msgid "Dumbbell Plot"
+msgstr "Gráfico de Halteres (Dumbbell)"
+
+msgid "SWD: Dumbbell Plot"
+msgstr "SWD: Gráfico de Halteres"
+
+msgid "Category"
+msgstr "Categoria"
+
+msgid "Start Value"
+msgstr "Valor Inicial"
+
+msgid "End Value"
+msgstr "Valor Final"
+
+msgid "Big Number Summary"
+msgstr "Resumo de Número Grande"
+
+msgid "SWD: Big Number Summary"
+msgstr "SWD: Resumo de Número Grande"
+
+msgid "Large Value"
+msgstr "Valor Grande"
+
+msgid "Context Text"
+msgstr "Texto de Contexto"
+
+msgid "Content"
+msgstr "Conteúdo"
+
+msgid "Colors"
+msgstr "Cores"

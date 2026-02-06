@@ -45,8 +45,9 @@ function calculate(is_preview){
 
         var code = " + ggplot2::theme_minimal(base_size = " + txt_size + ")";
         code += " + ggplot2::theme(plot.title.position = \"plot\", legend.position = \"" + leg_pos + "\", legend.justification = \"left\", panel.grid.minor = ggplot2::element_blank(), panel.grid.major.x = ggplot2::element_blank())";
-        code += " + ggplot2::theme(axis.title.y = ggplot2::element_text(angle = " + y_t_ang + ", vjust = " + y_vjust + ", hjust = " + y_hjust + ", color = \"gray40\"), axis.title.x = ggplot2::element_text(angle = " + x_t_ang + ", hjust = 0, color = \"gray40\"))";
-        code += " + ggplot2::theme(axis.text.x = ggplot2::element_text(angle = " + x_ang + "), axis.text.y = ggplot2::element_text(angle = " + y_ang + "))";
+        code += " + ggplot2::theme(plot.title = ggplot2::element_text(face = \"bold\", color = \"#111111\"), plot.subtitle = ggplot2::element_text(color = \"#555555\", margin = ggplot2::margin(b = 10)))";
+        code += " + ggplot2::theme(axis.title.y = ggplot2::element_text(angle = " + y_t_ang + ", vjust = " + y_vjust + ", hjust = " + y_hjust + ", color = \"gray30\", face = \"bold\"), axis.title.x = ggplot2::element_text(angle = " + x_t_ang + ", hjust = 0, color = \"gray30\"))";
+        code += " + ggplot2::theme(axis.text.x = ggplot2::element_text(angle = " + x_ang + ", color = \"gray30\"), axis.text.y = ggplot2::element_text(angle = " + y_ang + ", color = \"gray30\"))";
         return code;
     }
 
@@ -69,8 +70,8 @@ function calculate(is_preview){
 
     echo("p <- p + ggplot2::theme_void(base_size = " + getValue("bn_txt_size") + ") + ");
     echo("ggplot2::theme(plot.title.position = \"plot\", ");
-    echo("plot.title = ggplot2::element_text(hjust = 0, color = \"gray40\", face = \"bold\"), ");
-    echo("plot.subtitle = ggplot2::element_text(hjust = 0, color = \"gray40\"))\n");
+    echo("plot.title = ggplot2::element_text(hjust = 0, color = \"#111111\", face = \"bold\"), ");
+    echo("plot.subtitle = ggplot2::element_text(hjust = 0, color = \"#555555\"))\n");
   
 }
 

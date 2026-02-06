@@ -23,10 +23,28 @@
 		</setting>
 		<setting id="line_grp">
 		</setting>
-		<caption id="frm_iFGOHTN020" />
+		<caption id="frm_FcsDfntn" />
 		<setting id="line_focus_groups">
 		</setting>
 		<setting id="line_top_n">
+		</setting>
+		<caption id="frm_SpclEmph" />
+		<setting id="line_y_min">
+		</setting>
+		<setting id="line_emph_x">
+		</setting>
+		<caption id="tab_Labels" />
+		<caption id="frm_Scope" />
+		<setting id="line_lbl_show_ctx">
+		</setting>
+		<caption id="frm_Apprncgg" />
+		<setting id="line_lbl_nudge">
+		</setting>
+		<setting id="line_lbl_size">
+		</setting>
+		<setting id="line_lbl_face">
+		</setting>
+		<setting id="line_lbl_dir">
 		</setting>
 		<caption id="tab_Theme" />
 		<caption id="frm_TextLbls" />

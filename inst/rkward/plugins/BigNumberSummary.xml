@@ -56,15 +56,15 @@
 									<option label="SVG" value="SVG" />
 									<option label="JPG" value="JPG" />
 								</dropdown>
-								<row id="row_sW10241004">
-									<spinbox label="Width (px)" id="bn_dev_w" initial="1024" min="100" max="4000" />
-									<spinbox label="Height (px)" id="bn_dev_h" initial="768" min="100" max="4000" />
+								<row id="row_sW12001004">
+									<spinbox label="Width (px)" id="bn_dev_w" initial="1200" min="100" max="4000" />
+									<spinbox label="Height (px)" id="bn_dev_h" initial="800" min="100" max="4000" />
 								</row>
 								<column id="clm_sR15050600">
 									<spinbox label="Resolution (ppi)" id="bn_dev_res" initial="150" min="50" max="600" />
 									<dropdown id="bn_dev_bg" label="Background">
-										<option label="Transparent" value="transparent" checked="true" />
-										<option label="White" value="white" />
+										<option label="White" value="white" checked="true" />
+										<option label="Transparent" value="transparent" />
 									</dropdown>
 								</column>
 							</frame>

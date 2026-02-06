@@ -1,32 +1,21 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: rk.storytelling.data 0.2.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-02-06 13:35-0600\n"
+"PO-Revision-Date: 2026-02-06 14:00-0600\n"
+"Last-Translator: Full Name <email@address>\n"
+"Language-Team: French <fr@li.org>\n"
 "Language: fr\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "A collection of ggplot2 wrappers designed for 'Storytelling with Data' (SWD). Now includes advanced Label controls."
+msgstr "Une collection d'enveloppes ggplot2 conçues pour le 'Storytelling with Data' (SWD). Comprend désormais des contrôles d'étiquettes avancés."
+
 msgid "Storytelling with Data"
-msgstr "Storytelling avec des Données"
-
-msgid "Focus Line Chart"
-msgstr "Graphique Linéaire de Mise au Point"
-
-msgid "SWD: Focus Line Chart"
-msgstr "SWD : Graphique Linéaire de Mise au Point"
-
-msgid "SWD: Focus Scatter Plot"
-msgstr "SWD : Graphique de Dispersion de Mise au Point"
-
-msgid "SWD: Advanced Bar Chart"
-msgstr "SWD : Graphique à Barres Avancé"
-
-msgid "SWD: Slopegraph"
-msgstr "SWD : Graphique de Pente (Slopegraph)"
-
-msgid "SWD: Dumbbell Plot"
-msgstr "SWD : Graphique d'Haltères (Dumbbell)"
-
-msgid "SWD: Big Number Summary"
-msgstr "SWD : Résumé à Grands Chiffres"
+msgstr "Storytelling avec les Données"
 
 msgid "Text Labels"
 msgstr "Étiquettes de Texte"
@@ -38,46 +27,97 @@ msgid "Subtitle"
 msgstr "Sous-titre"
 
 msgid "X-Axis Label"
-msgstr "Étiquette de l'Axe X"
+msgstr "Étiquette Axe X"
 
 msgid "Y-Axis Label"
-msgstr "Étiquette de l'Axe Y"
+msgstr "Étiquette Axe Y"
 
 msgid "Caption"
-msgstr "Légende (Bas de page)"
+msgstr "Légende / Source"
 
-msgid "Rotation Adjustment"
-msgstr "Ajustement de la Rotation"
+msgid "Axis Title Rotation"
+msgstr "Rotation Titre Axe"
 
-msgid "X Title Angle"
-msgstr "Angle du Titre X"
+msgid "X-Label Angle"
+msgstr "Angle Étiquette X"
 
-msgid "Y Title Angle"
-msgstr "Angle du Titre Y"
+msgid "Y-Label Angle"
+msgstr "Angle Étiquette Y"
 
-msgid "X Value Angle"
-msgstr "Angle des Valeurs X"
+msgid "Axis Value Rotation"
+msgstr "Rotation Valeurs Axe"
 
-msgid "Y Value Angle"
-msgstr "Angle des Valeurs Y"
+msgid "X-Values Angle"
+msgstr "Angle Valeurs X"
+
+msgid "Y-Values Angle"
+msgstr "Angle Valeurs Y"
 
 msgid "Legend & Colors"
 msgstr "Légende et Couleurs"
 
 msgid "Focus Color"
-msgstr "Couleur de Mise au Point"
-
-msgid "Context Color"
-msgstr "Couleur de Contexte"
+msgstr "Couleur de Focus"
 
 msgid "Legend Position"
 msgstr "Position de la Légende"
 
+msgid "Top"
+msgstr "Haut"
+
+msgid "Bottom"
+msgstr "Bas"
+
+msgid "Left"
+msgstr "Gauche"
+
+msgid "Right"
+msgstr "Droite"
+
+msgid "None"
+msgstr "Aucune"
+
 msgid "Base Text Size"
 msgstr "Taille de Texte de Base"
 
+msgid "Graphics Device"
+msgstr "Dispositif Graphique"
+
+msgid "Device type"
+msgstr "Type de périphérique"
+
+msgid "Width (px)"
+msgstr "Largeur (px)"
+
+msgid "Height (px)"
+msgstr "Hauteur (px)"
+
+msgid "Resolution (ppi)"
+msgstr "Résolution (ppi)"
+
+msgid "Background"
+msgstr "Arrière-plan"
+
+msgid "White"
+msgstr "Blanc"
+
+msgid "Transparent"
+msgstr "Transparent"
+
+msgid "Save Plot Object"
+msgstr "Sauvegarder l'objet graphique"
+
+msgid "Theme"
+msgstr "Thème"
+
+msgid "Output & Export"
+msgstr "Sortie et Exportation"
+
+msgid "Data"
+msgstr "Données"
+
 msgid "Data Frame"
-msgstr "Cadre de Données (Data Frame)"
+msgstr "Data Frame"
 
 msgid "X Axis"
 msgstr "Axe X"
@@ -85,29 +125,149 @@ msgstr "Axe X"
 msgid "Y Axis"
 msgstr "Axe Y"
 
+msgid "Focus Line Chart"
+msgstr "Graphique Linéaire de Focus"
+
+msgid "SWD: Focus Line Chart"
+msgstr "SWD : Graphique Linéaire de Focus"
+
 msgid "Grouping Variable"
 msgstr "Variable de Groupement"
 
 msgid "Focus Group(s)"
-msgstr "Groupe(s) de Mise au Point"
+msgstr "Groupe(s) de Focus"
 
 msgid "Or Highlight Top N"
-msgstr "Ou mettre en évidence les N premiers"
+msgstr "Ou mettre en évidence le Top N"
+
+msgid "Y-Axis Min Limit (Empty = Auto)"
+msgstr "Limite Min Axe Y (Vide = Auto)"
+
+msgid "Emphasis Point (X Value)"
+msgstr "Point d'Emphase (Valeur X)"
+
+msgid "Enter value to add a circle (e.g., 2023)."
+msgstr "Entrez une valeur pour ajouter un cercle (ex : 2023)."
+
+msgid "Label Context Lines (All Series)"
+msgstr "Étiqueter les lignes de contexte (Toutes séries)"
+
+msgid "Horizontal Nudge (nudge_x)"
+msgstr "Décalage Horizontal (nudge_x)"
+
+msgid "Text Size"
+msgstr "Taille du Texte"
+
+msgid "Font Style"
+msgstr "Style de Police"
+
+msgid "Bold"
+msgstr "Gras"
+
+msgid "Plain"
+msgstr "Normal"
+
+msgid "Italic"
+msgstr "Italique"
+
+msgid "Repel Direction"
+msgstr "Direction de Répulsion"
+
+msgid "Y (Vertical Adjustment Only)"
+msgstr "Y (Ajustement Vertical Uniquement)"
+
+msgid "X (Horizontal Adjustment Only)"
+msgstr "X (Ajustement Horizontal Uniquement)"
+
+msgid "Both"
+msgstr "Les deux"
+
+msgid "Scope"
+msgstr "Portée"
+
+msgid "Appearance (ggrepel)"
+msgstr "Apparence (ggrepel)"
+
+msgid "Focus Definition"
+msgstr "Définition du Focus"
+
+msgid "Special Emphasis"
+msgstr "Emphase Spéciale"
+
+msgid "Labels"
+msgstr "Étiquettes"
+
+msgid "Focus Scatter Plot"
+msgstr "Nuage de Points de Focus"
+
+msgid "SWD: Focus Scatter Plot"
+msgstr "SWD : Nuage de Points de Focus"
+
+msgid "Label Variable"
+msgstr "Variable d'Étiquette"
+
+msgid "Show Average X Line"
+msgstr "Afficher Ligne Moyenne X"
+
+msgid "Show Average Y Line"
+msgstr "Afficher Ligne Moyenne Y"
+
+msgid "Show Average Intersection Dot"
+msgstr "Afficher Point d'Intersection Moyen"
+
+msgid "Use Capped Axes (SWD Style)"
+msgstr "Utiliser Axes Plafonnés (Style SWD)"
+
+msgid "Averages"
+msgstr "Moyennes"
+
+msgid "Layout"
+msgstr "Mise en page"
+
+msgid "Advanced Bar Chart"
+msgstr "Graphique à Barres Avancé"
+
+msgid "SWD: Advanced Bar Chart"
+msgstr "SWD : Graphique à Barres Avancé"
+
+msgid "X Axis (Category)"
+msgstr "Axe X (Catégorie)"
+
+msgid "Value (Numeric)"
+msgstr "Valeur (Numérique)"
+
+msgid "Stack/Fill Variable"
+msgstr "Variable d'Empilement/Remplissage"
+
+msgid "Facet Variable"
+msgstr "Variable de Facette"
 
 msgid "Frequency Type"
 msgstr "Type de Fréquence"
 
-msgid "Absolute (Sum)"
-msgstr "Absolue (Somme)"
+msgid "Absolute (Counts/Sum)"
+msgstr "Absolue (Compte/Somme)"
 
 msgid "Relative (100% Stacked)"
-msgstr "Relative (Empilée à 100%)"
+msgstr "Relative (100% Empilé)"
 
 msgid "X-Axis Ordering"
-msgstr "Ordre de l'Axe X"
+msgstr "Ordre Axe X"
+
+msgid "Default (Alphabetical/Factor)"
+msgstr "Défaut (Alphabétique/Facteur)"
+
+msgid "By Frequency (Descending)"
+msgstr "Par Fréquence (Descendant)"
+
+msgid "By Frequency (Ascending)"
+msgstr "Par Fréquence (Ascendant)"
 
 msgid "Highlight Rule"
 msgstr "Règle de Mise en Évidence"
+
+msgid "Specific Name (in Stacks or X)"
+msgstr "Nom Spécifique (dans Piles ou X)"
 
 msgid "Name to highlight"
 msgstr "Nom à mettre en évidence"
@@ -116,13 +276,70 @@ msgid "Flip Coordinates"
 msgstr "Inverser les Coordonnées"
 
 msgid "Show Value Labels"
-msgstr "Afficher les Étiquettes de Valeur"
+msgstr "Afficher Étiquettes de Valeur"
 
-msgid "Graphics Device"
-msgstr "Périphérique Graphique"
+msgid "Position Adjustment"
+msgstr "Ajustement de Position"
 
-msgid "Resolution (ppi)"
-msgstr "Résolution (ppi)"
+msgid "Vertical Adj (vjust)"
+msgstr "Ajust. Vertical (vjust)"
 
-msgid "Background"
-msgstr "Arrière-plan"
+msgid "Horizontal Adj (hjust)"
+msgstr "Ajust. Horizontal (hjust)"
+
+msgid "Freq & Order"
+msgstr "Fréquence et Ordre"
+
+msgid "Highlight"
+msgstr "Mise en Évidence"
+
+msgid "Rules"
+msgstr "Règles"
+
+msgid "Slopegraph"
+msgstr "Graphique de Pente (Slopegraph)"
+
+msgid "SWD: Slopegraph"
+msgstr "SWD : Graphique de Pente"
+
+msgid "Entity Variable"
+msgstr "Variable d'Entité"
+
+msgid "Time (2 levels)"
+msgstr "Temps (2 niveaux)"
+
+msgid "Value"
+msgstr "Valeur"
+
+msgid "Dumbbell Plot"
+msgstr "Graphique à Haltères"
+
+msgid "SWD: Dumbbell Plot"
+msgstr "SWD : Graphique à Haltères"
+
+msgid "Category"
+msgstr "Catégorie"
+
+msgid "Start Value"
+msgstr "Valeur de Départ"
+
+msgid "End Value"
+msgstr "Valeur de Fin"
+
+msgid "Big Number Summary"
+msgstr "Résumé Grand Nombre"
+
+msgid "SWD: Big Number Summary"
+msgstr "SWD : Résumé Grand Nombre"
+
+msgid "Large Value"
+msgstr "Grande Valeur"
+
+msgid "Context Text"
+msgstr "Texte de Contexte"
+
+msgid "Content"
+msgstr "Contenu"
+
+msgid "Colors"
+msgstr "Couleurs"
